@@ -3,7 +3,7 @@ package com.indivaragroup.list.exam;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MutableList {
+public class MutableListProblem {
 
     public static void printData(List data) {
         data.add("data tidak sengaja");
