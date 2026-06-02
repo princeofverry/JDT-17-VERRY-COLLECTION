@@ -28,21 +28,25 @@ public class EmployeeMain {
         EmployeeServiceConventional serviceTwo = new EmployeeServiceConventional();
 
         System.out.println("SORT BY NAME");
-//        service.sortByName(employees);
-        serviceTwo.sortByName(employees);
+        service.sortByName(employees);
+//        serviceTwo.sortByName(employees);
 
         System.out.println("\nSORT BY KOTA");
-//        service.sortByCity(employees);
-        serviceTwo.sortByCity(employees);
+        service.sortByCity(employees);
+//        serviceTwo.sortByCity(employees);
 
-        serviceTwo.countCity(employees);
+        System.out.println("\nGROUPING BY CITY");
+        service.countCity(employees);
+
+        // jumlah
+        // serviceTwo.countCity(employees);
 
         System.out.println("\nSORT BY SALARY");
-//        service.sortBySalary(employees);
-        serviceTwo.sortBySalary(employees);
+        service.sortBySalary(employees);
+//        serviceTwo.sortBySalary(employees);
 
         System.out.println("\nCOUNT GENDER");
-//        service.countGender(employees);
-        serviceTwo.countGender(employees);
+        service.countGender(employees);
+//        serviceTwo.countGender(employees);
     }
 }
